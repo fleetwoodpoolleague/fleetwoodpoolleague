@@ -40,6 +40,14 @@ namespace FwoodPool.UnitTests.Presentation
         }
 
         [Test]
+        public void About_ReturnTheCorrectView()
+        {
+            var viewResult = _sut.About() as ViewResult;
+
+            Assert.AreEqual(string.Empty, viewResult.ViewName);
+        }
+
+        [Test]
         public void Contact_ReturnTheCorrectView()
         {
             var viewResult = _sut.Contact() as ViewResult;

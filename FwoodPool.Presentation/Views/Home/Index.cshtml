@@ -1,5 +1,43 @@
 ﻿@{
     ViewBag.Title = "Index";
 }
+<div class ="container">
+<div class="row">
+            <div class="col-lg-8">
+                <img class="img-responsive img-rounded" src="~/Content/images/banner.png">
+                <!-- take out img-rounded if you don't want the rounded corners on the image -->
+            </div>
+            <div class="col-lg-4">
+                <h1>Fleetwood and District Pool League</h1>
+                <p>Welcome. This is a website for the Fleetwood and District Pool League, a not-for-profit organisation dedicated to promoting the sport of English Pool in Fleetwood and the surrounding district.</p>
+                @Html.ActionLink("Read more", "About", "Home", null, new {@class = "btn btn-primary btn-lg"})
+            </div>
+        </div>
 
-<h2>Index</h2>
+        <hr>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="well text-center">
+			Check out the official league site with all the latest league tables, scores and fixtures on <a href="http://fwdpool.leaguerepublic.com/l/fg/1_329390480.html">League Republic</a>.
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <h2>Rules</h2>
+                <p>Fleetwood Pool League plays a variant of the old EPA rules, with only a few differences that are easy to understand.</p>
+                @Html.ActionLink("Read the Rules", "Rules", "Home", null, new {@class = "btn btn-default"})
+            </div>
+            <div class="col-lg-4">
+                <h2>Constitution</h2>
+                <p>The constitution by which the League organises itself.</p>
+                @Html.ActionLink("More Info", "Constitution", "Home", null, new {@class = "btn btn-default"})
+            </div>
+            <div class="col-lg-4">
+                <h2>Website Development</h2>
+		<p>If you'd like to help out with the future development of this website, please contact Stuart Grassie either via the Pool League's facebook group, or via twitter <a href="http://twitter.com/stugrassie">@@stugrassie</a></p>
+            </div>
+        </div>
+</div>
