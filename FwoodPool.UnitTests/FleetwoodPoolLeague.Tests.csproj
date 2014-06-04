@@ -69,9 +69,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FwoodPool.Presentation\FwoodPool.Presentation.csproj">
+    <ProjectReference Include="..\FwoodPool.Presentation\FleetwoodPoolLeague.csproj">
       <Project>{71A2DFC9-D961-4556-8A76-53EA08CC9835}</Project>
-      <Name>FwoodPool.Presentation</Name>
+      <Name>FleetwoodPoolLeague</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

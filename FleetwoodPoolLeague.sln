@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FwoodPool.Presentation", "FwoodPool.Presentation\FwoodPool.Presentation.csproj", "{71A2DFC9-D961-4556-8A76-53EA08CC9835}"
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetwoodPoolLeague", "FwoodPool.Presentation\FleetwoodPoolLeague.csproj", "{71A2DFC9-D961-4556-8A76-53EA08CC9835}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FwoodPool.UnitTests", "FwoodPool.UnitTests\FwoodPool.UnitTests.csproj", "{89736577-8CE8-4C48-ACCA-26D31719E2F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetwoodPoolLeague.Tests", "FwoodPool.UnitTests\FleetwoodPoolLeague.Tests.csproj", "{89736577-8CE8-4C48-ACCA-26D31719E2F2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{643D81DA-DF2A-4300-8957-B13FCB61784F}"
 EndProject
