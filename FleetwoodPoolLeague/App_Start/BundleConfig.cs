@@ -1,6 +1,6 @@
 ﻿using System.Web.Optimization;
 
-namespace FwoodPool.Presentation
+namespace FleetwoodPoolLeague.Site
 {
     public class BundleConfig
     {

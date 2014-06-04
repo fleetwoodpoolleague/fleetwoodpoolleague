@@ -7,8 +7,8 @@
     <ProjectGuid>{89736577-8CE8-4C48-ACCA-26D31719E2F2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FwoodPool.UnitTests</RootNamespace>
-    <AssemblyName>FwoodPool.UnitTests</AssemblyName>
+    <RootNamespace>FleetwoodPoolLeague.Site.Tests</RootNamespace>
+    <AssemblyName>FleetwoodPoolLeague.Site.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -69,7 +69,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FwoodPool.Presentation\FleetwoodPoolLeague.csproj">
+    <ProjectReference Include="..\FleetwoodPoolLeague\FleetwoodPoolLeague.csproj">
       <Project>{71A2DFC9-D961-4556-8A76-53EA08CC9835}</Project>
       <Name>FleetwoodPoolLeague</Name>
     </ProjectReference>

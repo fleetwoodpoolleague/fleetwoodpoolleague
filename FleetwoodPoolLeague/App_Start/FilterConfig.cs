@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace FwoodPool.Presentation
+namespace FleetwoodPoolLeague.Site
 {
     public class FilterConfig
     {

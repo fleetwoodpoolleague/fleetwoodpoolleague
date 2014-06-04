@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace FwoodPool.Presentation.Controllers
+namespace FleetwoodPoolLeague.Site.Controllers
 {
     public class HomeController : Controller
     {

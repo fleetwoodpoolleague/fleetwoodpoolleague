@@ -1,6 +1,6 @@
 ﻿using System.Web.Http;
 
-namespace FwoodPool.Presentation
+namespace FleetwoodPoolLeague.Site
 {
     public static class WebApiConfig
     {
